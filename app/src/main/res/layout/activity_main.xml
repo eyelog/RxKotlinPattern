@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Some types of RX"
+            android:gravity="center_horizontal"
+            android:textSize="26dp"/>
+
+    <Button
+            android:id="@+id/btSingle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Single"
+    />
+
+    <Button
+            android:id="@+id/btObservable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Observable"
+    />
+
+    <Button
+            android:id="@+id/btFlowable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flowable"
+    />
+
+</LinearLayout>
